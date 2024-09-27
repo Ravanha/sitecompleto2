@@ -61,9 +61,6 @@ body{
 
 }
 
-.cliente{
-    text-align: center;
-}
 
 .campos{
     text-align: left;
@@ -261,4 +258,25 @@ textarea{
  
     /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
     resize: vertical;
+}
+
+form{
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 5px solid var(--color6);
+    border-radius: 1em;
+}
+ 
+form fieldset + fieldset{
+    margin-top: 5px;
+}
+ 
+label{
+    /* Para ter certeza que todas as labels tem o mesmo tamanho e estão proporcionalmente alinhadas */
+    display: inline-block;
+    width: 100px;
+    text-align: left;
 }
