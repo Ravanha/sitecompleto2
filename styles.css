@@ -260,7 +260,7 @@ textarea{
     resize: vertical;
 }
 
-form{
+.contatoform{
     /* Apenas para centralizar o form na página */
     margin: 0 auto;
     width: 400px;
@@ -270,11 +270,11 @@ form{
     border-radius: 1em;
 }
  
-form fieldset + fieldset{
+.contatoform fieldset + fieldset{
     margin-top: 5px;
 }
  
-label{
+.novalabel{
     /* Para ter certeza que todas as labels tem o mesmo tamanho e estão proporcionalmente alinhadas */
     display: inline-block;
     width: 100px;
